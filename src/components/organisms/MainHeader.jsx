@@ -3,7 +3,7 @@ import MainMenu from "../molecules/header/MainMenu"
 
 const MainHeader = () => {
   return (
-    <div className="bg-gradient header">
+    <div className="bg-gradient content">
       <div className="container">
         <Logo />
         <MainMenu />

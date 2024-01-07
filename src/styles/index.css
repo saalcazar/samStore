@@ -61,3 +61,48 @@ body {
 .menu-items:hover {
   color: #BED754
 }
+
+.login {
+  background-color: #750E21;
+  color: #c9c9c9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-login {
+  margin-bottom: 2rem;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-login {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.input-login {
+  all: unset;
+  margin-bottom: 1rem;
+  background-color: #E3651D;
+  padding: .2rem .5rem;
+  color: #191919;
+}
+
+.button-login {
+  all: unset;
+  background-color: #E3651D;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  color: #191919;
+  padding: 1rem .5rem;
+}
